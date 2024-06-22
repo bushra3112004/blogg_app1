@@ -1,0 +1,30 @@
+.blog-card{
+    background-color: rgb(217, 172, 66);
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 10x solid rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-decoration: none;
+    color:black;
+}
+.blog-card:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.blog-title{
+  font-size: 40px;
+}
+.blog-content{
+    font-size: 20px;
+    
+}
+.blog-famous{
+    font-size: 20px;
+}
+.blog-culture{
+    font-size: 30px;
+}
+.city-img{
+    height: 70px;
+}
