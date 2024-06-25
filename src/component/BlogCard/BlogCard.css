@@ -1,6 +1,6 @@
 .blog-card{
     background-color: rgb(217, 172, 66);
-    height: 200px;
+    height: 300px;
     width: 500px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,5 +26,9 @@
     font-size: 30px;
 }
 .city-img{
-    height: 70px;
+    height: 20px;
+}
+.pictures{
+   height: 90px;
+   margin: 10px;
 }

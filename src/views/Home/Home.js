@@ -4,31 +4,32 @@ import BlogCard from "../../component/BlogCard/BlogCard"
 
 function Home() {
     return (
-       <>
-       <div className="blog-container">
-        {
-            blogs.map((blogObject,i) => {
-                const{
-                    
-                    title,
-                    content,
-                    famous,
-                    cultural_events,
-                    city
-                }= blogObject
+        <>
+            <div className="blog-container">
+                {
+                    blogs.map((blogObject) => {
+                        const {
+                            id,
+                            title,
+                            content,
+                            famous,
+                            cultural_events,
+                            picture
 
-                return(
-                    <BlogCard
-                    key={i}
-                    title={title}
-                    content={content}
-                    famous={famous}
-                    cultural_events={cultural_events}
-                    city={city.picture}
-                    />)
-            })
-        } 
-    </div>
+                        } = blogObject
+
+                        return (
+                            <BlogCard
+                                id={id}
+                                title={title}
+                                content={content}
+                                famous={famous}
+                                cultural_events={cultural_events}
+                                 picture={picture}
+                            />)
+                    })
+                }
+            </div>
         </>
     )
 }
